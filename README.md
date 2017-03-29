@@ -11,7 +11,17 @@ Como no queremos utilizar `CaptureActivity` directamente al usar la biblioteca, 
 
 Así, el código que quiera utilizar esta biblioteca, puede crear una `Activity` que tiene que inicializar la librera e implementar `CaptureActivityInterface`.
 
-Ejemplo de cómo usar la biblioteca
+## Instalación
+
+En la pestaña de releases de Github están las versiones con un enlace de descarga directamente al aar ya compilado.
+
+Si se quiere generar un aar directamente, se puede bajar el código, importarlo en Android Studio, ejecutar build y utilizar el aar que genera.
+
+Una vez tengamos el arr, hay que copiarlo a la carpeta de libs del proyecto destino y enlazarlo con Gradle mediante un comando como este añadiendo esta línea a la sección `dependencies` en Gradle.
+
+`compile (name:'zxing_3.2.0', ext:'aar')`
+
+## Ejemplo de cómo usar la biblioteca
 
 ```
 

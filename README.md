@@ -19,7 +19,7 @@ Si se quiere generar un aar directamente, se puede bajar el código, importarlo 
 
 Una vez tengamos el arr, hay que copiarlo a la carpeta de libs del proyecto destino y enlazarlo con Gradle mediante un comando como este añadiendo esta línea a la sección `dependencies` en Gradle.
 
-`compile (name:'zxing_3.2.0', ext:'aar')`
+`compile (name:'zxing-cusmtom-1.0', ext:'aar')`
 
 ## Ejemplo de cómo usar la biblioteca
 
